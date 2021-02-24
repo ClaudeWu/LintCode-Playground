@@ -1,6 +1,7 @@
 package SectionOne.ArrayList;
 
 import java.util.*;
+
 /**
  * LintCode 385.ArrayList
  * 1. create(n). Create an ArrayList of integers contains [0, 1, 2, ... n-1]
