@@ -20,7 +20,7 @@ package SectionOnePrc.JumpGame;
 /*
  * 思路：
  * 1. 设置一个指针判断其index的值是否满足到达数组中最后一位及A.length - 1
- * 2. 在第一个指针前设置第二个指针判断其index的值是否为true以及否满足大于或等于i - j的差
+ * 2. 在第一个指针前设置第二个指针判断其index的值是否为true以及否满足大于或等于i到j的距离(i - j)
  */
 public class Solution {
     /**
