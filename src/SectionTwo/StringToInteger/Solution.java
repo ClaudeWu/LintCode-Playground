@@ -40,6 +40,9 @@ public class Solution {
             return res;
         }
 
+        // remove empty string from start and end
+        target.trim();
+
         // Negative checker
         boolean isNegative = false;
 
@@ -63,5 +66,4 @@ public class Solution {
         // result
         return res;
     }
-
 }
