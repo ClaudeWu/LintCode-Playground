@@ -41,7 +41,7 @@ public class Solution {
         }
 
         // remove empty string from start and end
-        target.trim();
+        target = target.trim();
 
         // Negative checker
         boolean isNegative = false;
