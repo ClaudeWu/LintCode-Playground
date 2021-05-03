@@ -1,4 +1,4 @@
-package SectionOnePrc.RectangleArea;
+package WarmUpTwo.RectangleArea;
 
 public class Main {
     public static void main(String[] args) {
