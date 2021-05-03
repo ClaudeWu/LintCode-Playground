@@ -1,4 +1,4 @@
-package SectionOnePrc.ReverseInteger;
+package WarmUpTwo.ReverseInteger;
 
 public class Main {
     public static void main(String[] args) {
