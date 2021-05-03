@@ -9,7 +9,7 @@ package WarmUpTwo.RootOfEquation;
  * If there are only one root, return a list with only one root in it.
  * If there are no root for the given equation, return an empty list.
  *
- *Example 1:
+ * Example 1:
  *      Input: a = 1, b = -2, c = 1
  *      Output: [1]
  *      Explanation: The equation has a root and returns to [1].
@@ -49,7 +49,7 @@ public class Solution {
         roots[0] = (-b + Math.sqrt(determinant)) / (a * 2);
         roots[1] = (-b - Math.sqrt(determinant)) / (a * 2);
 
-        // swap results if roots[1] > roots[0]
+        // swap results if roots[0] > roots[1]
         if (roots[0] > roots[1]) {
             double temp = roots[0];
             roots[0] = roots[1];
