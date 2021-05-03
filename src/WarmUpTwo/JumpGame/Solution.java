@@ -1,7 +1,9 @@
-package SectionOnePrc.JumpGame;
+package WarmUpTwo.JumpGame;
 
-/*
- * LintCode 116. Jump Game
+/**
+ * LintCode 116.Jump Game
+ * Link: https://www.lintcode.com/problem/jump-game
+ *
  * Given an array of non-negative integers, you are initially positioned at the first index of the array.
  * Each element in the array represents your maximum jump length at that position.
  * Determine if you are able to reach the last index.
@@ -14,13 +16,10 @@ package SectionOnePrc.JumpGame;
  *      Input : [3,2,1,0,4]
  *      Output : false
  *
- * URL: https://www.lintcode.com/problem/jump-game
- */
-
-/*
  * 思路：
  * 1. 设置一个指针判断其index的值是否满足到达数组中最后一位及A.length - 1
  * 2. 在第一个指针前设置第二个指针判断其index的值是否为true以及否满足大于或等于i到j的距离(i - j)
+ *
  */
 public class Solution {
     /**
@@ -29,8 +28,13 @@ public class Solution {
      */
     public boolean canJump(int[] A) {
 
+        // definition
+        int size = A.length;
+        boolean[] dp = new boolean[size];
+        dp[0] = true;
+
         // check corner case
-        if (A.length == 0 || A.length == 1) {
+        if (size == 0 || size == 1) {
             return true;
         }
 
@@ -38,17 +42,13 @@ public class Solution {
             return true;
         }
 
-        // definition
-        int size = A.length;
-        boolean[] dp = new boolean[size];
-        dp[0] = true;
-
         // computing
         for (int i = 1; i < size; i++) {
             dp[i] = false;
             for(int j = 0; j < i; j++) {
                 if(dp[j] && A[j] >= i - j) {
                     dp[i] = true;
+                    break;
                 }
             }
         }

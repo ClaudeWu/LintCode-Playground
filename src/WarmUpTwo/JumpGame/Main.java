@@ -1,4 +1,4 @@
-package SectionOnePrc.JumpGame;
+package WarmUpTwo.JumpGame;
 
 public class Main {
     public static void main(String[] args) {
