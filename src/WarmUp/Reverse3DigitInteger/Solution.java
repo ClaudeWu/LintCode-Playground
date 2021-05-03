@@ -1,7 +1,27 @@
-package SectionOne.Reverse3DigitInteger;
+package WarmUp.Reverse3DigitInteger;
+
+/**
+ * LintCode 37.Reverse 3-digit Integer
+ * Link: https://www.lintcode.com/problem/reverse-3-digit-integer/
+ *
+ * Reverse a 3-digit integer.
+ * You can assume the given number is larger or equal to 100 but smaller than 1000.
+ *
+ * Example 1:
+ *  Input:
+ *      number = 123
+ *  Output:
+ *      321
+ *
+ * Example 2:
+ *  Input:
+ *      number = 900
+ * Output:
+ *      9
+ */
 
 public class Solution {
-    // solution with Module
+    // version-1: Modulo
     public int solution1(int number) {
         //getting ones digit
         int num1 = number % 10;
@@ -13,7 +33,7 @@ public class Solution {
         return num1 * 100 + num2 * 10 + num3;
     }
 
-    // solution with while loop + Modulo
+    // version-2: while loop + Modulo
     public int solution2(int number) {
          int reversed = 0;
          while(number != 0) {
@@ -28,7 +48,7 @@ public class Solution {
          return reversed;
     }
 
-    // solution with int/string conversion
+    // version-3: int/string conversion
     /*
      * follow up: what if the number is negative?
      * 思路: 如果 chars[i] 是 '-' 的话, 将其放到 str[0] 的位置

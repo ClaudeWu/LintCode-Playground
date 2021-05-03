@@ -1,4 +1,4 @@
-package SectionOne.Reverse3DigitInteger;
+package WarmUp.Reverse3DigitInteger;
 
 public class Main {
     public static void main(String[] arg) {
