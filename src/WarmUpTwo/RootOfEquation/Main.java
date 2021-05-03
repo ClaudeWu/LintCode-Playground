@@ -1,4 +1,4 @@
-package SectionOnePrc.RootOfEquation;
+package WarmUpTwo.RootOfEquation;
 
 import java.util.Arrays;
 
