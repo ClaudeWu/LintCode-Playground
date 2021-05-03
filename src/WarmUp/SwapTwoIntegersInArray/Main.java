@@ -1,4 +1,4 @@
-package SectionOne.SwapTwoIntegersInArray;
+package WarmUp.SwapTwoIntegersInArray;
 
 import java.util.Arrays;
 
