@@ -1,4 +1,4 @@
-package SectionOne.ArrayList;
+package WarmUp.ArrayList;
 
 // test code
 public class Main {

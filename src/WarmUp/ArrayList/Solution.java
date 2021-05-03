@@ -1,15 +1,48 @@
-package SectionOne.ArrayList;
+package WarmUp.ArrayList;
 
 import java.util.*;
 
 /**
  * LintCode 385.ArrayList
+ * Link: https://www.lintcode.com/problem/385/
+ *
  * 1. create(n). Create an ArrayList of integers contains [0, 1, 2, ... n-1]
  * 2. clone(list). Clone a list. The cloned list should independent with the original list.
  * 3. get(list, index). Get the element on the index position of the list.
  * 4. set(list, index, val). Change the value the element of index position to given val.
  * 5. remove(list, index). Remove the element on the index position.
  * 6. indexOf(list, val). Find the first index of element that equals to val and return its index.
+ *
+ * Input:
+ *  create(5)
+ *  get([0,1,2,3,4], 0)
+ *  get([0,1,2,3,4], 1)
+ *  get([0,1,2,3,4], 4)
+ *  clone([0,1,2,3,4])
+ *  get([0,1,2,3,4], 2)
+ *  indexOf([0,1,2,3,4], 1)
+ *  indexOf([0,1,2,3,4], 10)
+ *  remove([0,1,2,3,4], 3)
+ *  get([0,1,2,4], 3)
+ *  set([0,1,2,4], 2, 3)
+ *  get([0,1,2,3,4], 2)
+ *  get([0,1,2,3,4], 3)
+ *
+ * Output:
+ *  [0,1,2,3,4]
+ *  0
+ *  1
+ *  4
+ *  [0,1,2,3,4]
+ *  2
+ *  1
+ *  -1
+ *  [0,1,2,4]
+ *  4
+ *  [0,1,3,4]
+ *  2
+ *  3
+ *
  */
 
 public class Solution {
