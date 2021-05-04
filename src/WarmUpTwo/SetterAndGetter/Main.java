@@ -1,4 +1,4 @@
-package SectionOnePrc.SetterAndGetter;
+package WarmUpTwo.SetterAndGetter;
 
 public class Main {
     public static void main(String[] args) {
