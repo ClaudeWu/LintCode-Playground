@@ -1,7 +1,9 @@
-package SectionOnePrc.StudentLevel;
+package WarmUpTwo.StudentLevel;
 
-/*
- * LintCode 218. Student Level
+/**
+ * LintCode 218.Student Level
+ * Link: https://www.lintcode.com/problem/218/
+ *
  * Two public attributes name(string) and score(int).
  * A constructor expect a name as a parameter.
  * A method getLevel to get the level(char) of the student.
@@ -11,6 +13,21 @@ package SectionOnePrc.StudentLevel;
  * B: score >= 80 and < 90
  * C: score >= 60 and < 80
  * D: score < 60
+ *
+ * Java:
+ *     Student student = new Student("Zuck");
+ *     student.score = 10;
+ *     student.getLevel(); // should be 'D'
+ *     student.score = 60;
+ *     student.getLevel(); // should be 'C'
+ *
+ * Python:
+ *     student = Student("Zuck")
+ *     student.score = 10
+ *     student.getLevel() # should be 'D'
+ *     student.score = 60
+ *     student.getLevel() # should be 'C'
+ *
  */
 
 public class Solution {

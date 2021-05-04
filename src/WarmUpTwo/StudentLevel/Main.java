@@ -1,4 +1,4 @@
-package SectionOnePrc.StudentLevel;
+package WarmUpTwo.StudentLevel;
 
 public class Main {
     public static void main(String[] args) {
