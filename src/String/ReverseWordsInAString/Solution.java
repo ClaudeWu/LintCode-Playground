@@ -1,6 +1,12 @@
+package String.ReverseWordsInAString;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * LintCode 53.Reverse Words in a String
  * Link: https://www.lintcode.com/problem/53/
+ * LeetCode 151.Reverse Words in a String
  * Link: https://leetcode.com/problems/reverse-words-in-a-string/
  *
  * Given an input string s, reverse the order of the words.
@@ -32,10 +38,6 @@
  * Output: "bob like even not does Alice"
  *
  */
-package WarmUpTwo.ReverseWordsInAString;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class Solution {
     /*

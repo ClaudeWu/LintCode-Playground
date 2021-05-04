@@ -1,4 +1,4 @@
-package WarmUpTwo.ReverseWordsInAString;
+package String.ReverseWordsInAString;
 
 public class Main {
     public static void main(String[] args) {
