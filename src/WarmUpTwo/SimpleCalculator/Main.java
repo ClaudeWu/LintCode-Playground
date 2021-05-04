@@ -1,4 +1,4 @@
-package SectionOnePrc.SimpleCalculator;
+package WarmUpTwo.SimpleCalculator;
 
 public class Main {
     public static void main(String[] args) {
