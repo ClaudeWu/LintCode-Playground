@@ -50,24 +50,24 @@ public class Solution {
     // helper method
     public int binarySearch(int[] A, int target, boolean leftMost) {
 
-        int low = 0;
-        int high = A.length - 1;
+        int start = 0;
+        int end = A.length - 1;
         int index = -1;
 
-        while (low <= high) {
+        while (start <= end) {
 
-            int mid = low + (high - low) / 2;
+            int mid = start + (end - start) / 2;
 
             if (target > A[mid]) {
-                low = mid + 1;
+                start = mid + 1;
             } else if (target < A[mid]) {
-                high = mid - 1;
+                end = mid - 1;
             } else {
                 index = mid;
                 if (leftMost) {
-                    high = mid - 1;
+                    end = mid - 1;
                 } else {
-                    low = mid + 1;
+                    start = mid + 1;
                 }
             }
         }
