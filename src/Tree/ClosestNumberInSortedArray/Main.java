@@ -17,5 +17,9 @@ public class Main {
         System.out.println(s.closestNumber(test2, target2));
         System.out.println(s.closestNumber(test3, target3));
 
+        System.out.println(s.closestNumber2(test1, target1));
+        System.out.println(s.closestNumber2(test2, target2));
+        System.out.println(s.closestNumber2(test3, target3));
+
     }
 }
