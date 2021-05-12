@@ -1,8 +1,10 @@
 package Tree.FirstBadVersion;
 
 /**
- * LintCode 74.First Bad Version
+ * LintCode 74.First Bad Version (vest)
  * URL: https://www.lintcode.com/problem/74
+ * LeetCode 278.First Bad Version
+ * URL: https://leetcode.com/problems/first-bad-version/
  *
  * The code base version is an integer start from 1 to n. One day, someone committed a bad version in the code case,
  * so it caused this version and the following versions are all failed in the unit tests. Find the first bad version.
