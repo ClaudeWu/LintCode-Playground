@@ -3,6 +3,8 @@ package Tree.SearchA2DMatrix;
 /**
  * LintCode 28.Search a 2D Matrix (vest)
  * URL: https://www.lintcode.com/problem/28/description
+ * LeetCode 74.Search a 2D Matrix (vest)
+ * URL: https://leetcode.com/problems/search-a-2d-matrix/
  *
  * Write an efficient algorithm that searches for a target value in an m x n matrix.
  * This matrix has the following properties:
